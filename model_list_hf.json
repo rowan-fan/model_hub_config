@@ -1,0 +1,647 @@
+[ {
+  "description" : "A powerful AI code generation model developed by DeepSeek, supporting multilingual project-level code completion and generation, significantly improving developers' programming efficiency.",
+  "model_id" : "deepseek-ai/deepseek-coder-33b-instruct",
+  "model_name" : "deepseek-coder-33b-instruct",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 16384,
+  "model_size" : 33342991360,
+  "storage_size" : 133373711611,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "A causal language model specifically optimized for code generation and programming tasks, demonstrating excellent performance and efficiency.",
+  "model_id" : "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+  "model_name" : "Qwen3-Coder-30B-A3B-Instruct",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 262144,
+  "model_size" : 30532122624,
+  "storage_size" : 61079827573,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "A vision understanding model for cloud and high-performance cluster scenarios.",
+  "model_id" : "zai-org/GLM-4.6V",
+  "model_name" : "GLM-4.6V",
+  "model_type" : "MLLM",
+  "task_type" : "image-text-to-text",
+  "context" : 131072,
+  "model_size" : 107710933120,
+  "storage_size" : 215446298154,
+  "data_type" : "BF16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "The most powerful vision-language model in the Qwen series to date.",
+  "model_id" : "Qwen/Qwen3-VL-8B-Instruct",
+  "model_name" : "Qwen3-VL-8B-Instruct",
+  "model_type" : "MLLM",
+  "task_type" : "image-text-to-text",
+  "context" : 262144,
+  "model_size" : 8767123696,
+  "storage_size" : 17545916886,
+  "data_type" : "BF16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "GLM-4 32B Model, high-performance language processing with 16K context support.",
+  "model_id" : "zai-org/GLM-4-32B-0414",
+  "model_name" : "GLM-4-32B-0414",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 32768,
+  "model_size" : 32566081536,
+  "storage_size" : 65152306507,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "GLM-4 9B Model, balancing performance and resources with 32K context support.",
+  "model_id" : "zai-org/GLM-4-9B-0414",
+  "model_name" : "GLM-4-9B-0414",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 32768,
+  "model_size" : 9400279040,
+  "storage_size" : 18820681843,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "GLM-Z1 9B Lightweight Model, efficient inference for medium complexity tasks.",
+  "model_id" : "zai-org/GLM-Z1-9B-0414",
+  "model_name" : "GLM-Z1-9B-0414",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 32768,
+  "model_size" : 9400279040,
+  "storage_size" : 18820645760,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "GLM-Z1 32B Model, general language processing suitable for fine-tuning on various tasks.",
+  "model_id" : "zai-org/GLM-Z1-32B-0414",
+  "model_name" : "GLM-Z1-32B-0414",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 32768,
+  "model_size" : 32566081536,
+  "storage_size" : 65152270422,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "ChatGLM3 6B Chat Model, optimized for dialogue interaction.",
+  "model_id" : "zai-org/chatglm3-6b",
+  "model_name" : "chatglm3-6b",
+  "model_type" : "Other",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 6243584032,
+  "storage_size" : 24975604342,
+  "data_type" : "float16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "GLM-4.5 Air Lightweight Version, efficient deployment for resource-constrained scenarios.",
+  "model_id" : "zai-org/GLM-4.5-Air",
+  "model_name" : "GLM-4.5-Air",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 110468824832,
+  "storage_size" : 220961582402,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "GLM-4.5 Language Model, supporting 128K context with powerful text generation and understanding.",
+  "model_id" : "zai-org/GLM-4.5",
+  "model_name" : "GLM-4.5",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 358337791296,
+  "storage_size" : 716705230256,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "GLM-4.6 Latest Language Model, supporting 200K context with high-performance multi-functional generation.",
+  "model_id" : "zai-org/GLM-4.6",
+  "model_name" : "GLM-4.6",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 202752,
+  "model_size" : 356785898816,
+  "storage_size" : 713601436223,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "zai-org GLM-4.1V 9B Thinking Model, multimodal reasoning.",
+  "model_id" : "zai-org/GLM-4.1V-9B-Thinking",
+  "model_name" : "GLM-4.1V-9B-Thinking",
+  "model_type" : "MLLM",
+  "task_type" : "image-text-to-text",
+  "context" : 65536,
+  "model_size" : 10292777472,
+  "storage_size" : 20608228702,
+  "data_type" : "BF16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Kimi 72B Development Version, testing new features.",
+  "model_id" : "moonshotai/Kimi-Dev-72B",
+  "model_name" : "Kimi-Dev-72B",
+  "model_type" : "Other",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 72706203648,
+  "storage_size" : 145424762640,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Kimi K2 Base Model, supporting various applications.",
+  "model_id" : "moonshotai/Kimi-K2-Base",
+  "model_name" : "Kimi-K2-Base",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 1026470731056,
+  "storage_size" : 1029206927327,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "MoonshotAI Moonlight 16B Instruction Model, lightweight and efficient.",
+  "model_id" : "moonshotai/Moonlight-16B-A3B-Instruct",
+  "model_name" : "Moonlight-16B-A3B-Instruct",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 8192,
+  "model_size" : 15960111936,
+  "storage_size" : 31925332238,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Kimi K2 Instruction Model, optimized for dialogue interaction.",
+  "model_id" : "moonshotai/Kimi-K2-Instruct",
+  "model_name" : "Kimi-K2-Instruct",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 1026470731056,
+  "storage_size" : 1029207175415,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Kimi K2 Thinking is the latest and most powerful open-source thinking model version.",
+  "model_id" : "moonshotai/Kimi-K2-Thinking",
+  "model_name" : "Kimi-K2-Thinking",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 262144,
+  "model_size" : 170267046016,
+  "storage_size" : 594256579608,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "MoonshotAI Kimi Linear Instruction Model, advantages in long text processing.",
+  "model_id" : "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+  "model_name" : "Kimi-Linear-48B-A3B-Instruct",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 1048576,
+  "model_size" : 49122681728,
+  "storage_size" : 98253573573,
+  "data_type" : "BF16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 Next 80B Thinking Model, enhanced logical reasoning and multi-step problem-solving capabilities.",
+  "model_id" : "Qwen/Qwen3-Next-80B-A3B-Thinking",
+  "model_name" : "Qwen3-Next-80B-A3B-Thinking",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 262144,
+  "model_size" : 81324862720,
+  "storage_size" : 162682279604,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 Next 80B Instruction Model, next-generation architecture with improved reasoning and generation performance.",
+  "model_id" : "Qwen/Qwen3-Next-80B-A3B-Instruct",
+  "model_name" : "Qwen3-Next-80B-A3B-Instruct",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 262144,
+  "model_size" : 81324862720,
+  "storage_size" : 162682276438,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 30B MoE Instruction Model, efficient inference for complex language tasks.",
+  "model_id" : "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "model_name" : "Qwen3-30B-A3B-Instruct-2507",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 262144,
+  "model_size" : 30532122624,
+  "storage_size" : 61084263662,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 4B Instruction Fine-tuned Model, supporting 256K context, suitable for dialogue and task execution.",
+  "model_id" : "Qwen/Qwen3-4B-Instruct-2507",
+  "model_name" : "Qwen3-4B-Instruct-2507",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 262144,
+  "model_size" : 4022468096,
+  "storage_size" : 8060918292,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "V3.2 Experimental Version, testing new features and improvements.",
+  "model_id" : "deepseek-ai/DeepSeek-V3.2-Exp",
+  "model_name" : "DeepSeek-V3.2-Exp",
+  "model_type" : "Other",
+   "task_type" : "text-generation",
+  "context" : 163840,
+  "model_size" : 685396921376,
+  "storage_size" : 689500030738,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "V3.1 Terminal Optimized Version, suitable for resource-constrained environment deployment.",
+  "model_id" : "deepseek-ai/DeepSeek-V3.1-Terminus",
+  "model_name" : "DeepSeek-V3.1-Terminus",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 163840,
+  "model_size" : 684531386000,
+  "storage_size" : 688605863826,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "DeepSeek's latest generation large language model, high-performance text generation and reasoning.",
+  "model_id" : "deepseek-ai/DeepSeek-V3.1",
+  "model_name" : "DeepSeek-V3.1",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 163840,
+  "model_size" : 684531386000,
+  "storage_size" : 688603635342,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 is the latest generation of large language models in the Qwen series, offering a range of dense and Mixture-of-Experts (MoE) models.",
+  "model_id" : "Qwen/Qwen3-0.6B",
+  "model_name" : "Qwen3-0.6B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 40960,
+  "model_size" : 751632384,
+  "storage_size" : 1519209873,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 is the latest generation of large language models in the Qwen series, offering a range of dense and Mixture-of-Experts (MoE) models.",
+  "model_id" : "Qwen/Qwen3-4B",
+  "model_name" : "Qwen3-4B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 40960,
+  "model_size" : 4022468096,
+  "storage_size" : 8060927256,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 is the latest generation of large language models in the Qwen series, offering a range of dense and Mixture-of-Experts (MoE) models.",
+  "model_id" : "Qwen/Qwen3-8B",
+  "model_name" : "Qwen3-8B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 40960,
+  "model_size" : 8190735360,
+  "storage_size" : 16397461896,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 is the latest generation of large language models in the Qwen series, offering a range of dense and Mixture-of-Experts (MoE) models.",
+  "model_id" : "Qwen/Qwen3-14B",
+  "model_name" : "Qwen3-14B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 40960,
+  "model_size" : 14768307200,
+  "storage_size" : 29552614406,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 is the latest generation of large language models in the Qwen series, offering a range of dense and Mixture-of-Experts (MoE) models.",
+  "model_id" : "Qwen/Qwen3-30B-A3B",
+  "model_name" : "Qwen3-30B-A3B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 40960,
+  "model_size" : 30532122624,
+  "storage_size" : 61084188021,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "Qwen3 is the latest generation of large language models in the Qwen series, offering a range of dense and Mixture-of-Experts (MoE) models.",
+  "model_id" : "Qwen/Qwen3-32B",
+  "model_name" : "Qwen3-32B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 40960,
+  "model_size" : 32762123264,
+  "storage_size" : 65540299108,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "A 1.5B distillation model based on Qwen architecture, incorporating refined knowledge from DeepSeek-R1 system, optimized for low computing environments, suitable for extreme resource-constrained scenarios.",
+  "model_id" : "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+  "model_name" : "DeepSeek-R1-Distill-Qwen-1.5B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 1777088000,
+  "storage_size" : 3562046176,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "A 7B distillation model based on Qwen architecture, incorporating refined knowledge from DeepSeek-R1 system, providing stable text generation and understanding capabilities at low computational cost, entry-level deployment solution.",
+  "model_id" : "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+  "model_name" : "DeepSeek-R1-Distill-Qwen-7B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 7615616512,
+  "storage_size" : 15239131496,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "An 8B distillation model based on Llama architecture, combined with DeepSeek-R1 knowledge distillation technology, suitable for resource-constrained scenarios.",
+  "model_id" : "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+  "model_name" : "DeepSeek-R1-Distill-Llama-8B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 8030261248,
+  "storage_size" : 16070465116,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "A 14B distillation model based on Qwen architecture, incorporating refined knowledge from DeepSeek-R1 system, balancing computational efficiency and inference performance, lightweight deployment option.",
+  "model_id" : "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+  "model_name" : "DeepSeek-R1-Distill-Qwen-14B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 14770033664,
+  "storage_size" : 29548013462,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "A 32B distillation model based on Qwen architecture, incorporating refined knowledge from DeepSeek-R1 system, providing powerful reasoning and generation capabilities while significantly reducing computational cost, suitable for medium-scale deployment.",
+  "model_id" : "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+  "model_name" : "DeepSeek-R1-Distill-Qwen-32B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 32763876352,
+  "storage_size" : 65535737090,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+}, {
+  "description" : "A 70B distillation model based on Llama architecture, incorporating refined knowledge from DeepSeek-R1 system, significantly reducing computational cost while maintaining excellent reasoning capabilities, balancing performance and resource consumption.",
+  "model_id" : "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+  "model_name" : "DeepSeek-R1-Distill-Llama-70B",
+  "model_type" : "LLM",
+  "task_type" : "text-generation",
+  "context" : 131072,
+  "model_size" : 70553706496,
+  "storage_size" : 141117442518,
+  "data_type" : "bfloat16",
+  "update_version" : 1,
+  "deployment_settings" : {
+    "engines" : {
+      "vllm" : "0.9.2",
+      "sglang" : "0.4.3"
+    }
+  }
+} ]
