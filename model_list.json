@@ -13,6 +13,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -30,6 +34,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-auto-tool-choice --tool-call-parser qwen3_xml",
+      "sglang" : "--tool-call-parser qwen3_coder"
     }
   }
 }, {
@@ -47,6 +55,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -64,6 +76,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -81,6 +97,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -98,6 +118,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -115,6 +139,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -132,6 +160,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -149,6 +181,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -166,6 +202,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser glm45 --enable-auto-tool-choice --tool-call-parser glm45",
+      "sglang" : "--reasoning-parser glm45 --tool-call-parser glm45"
     }
   }
 }, {
@@ -183,6 +223,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser glm45 --enable-auto-tool-choice  --tool-call-parser glm45",
+      "sglang" : "--reasoning-parser glm45 --tool-call-parser glm45"
     }
   }
 }, {
@@ -200,6 +244,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser glm45 --enable-auto-tool-choice  --tool-call-parser glm45",
+      "sglang" : "--reasoning-parser glm45 --tool-call-parser glm"
     }
   }
 }, {
@@ -217,6 +265,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -234,6 +286,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -251,6 +307,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -268,6 +328,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -285,6 +349,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-auto-tool-choice  --tool-call-parser kimi_k2",
+      "sglang" : "--tool-call-parser kimi_k2"
     }
   }
 }, {
@@ -302,6 +370,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser kimi_k2 --enable-auto-tool-choice --tool-call-parser kimi_k2",
+      "sglang" : "--reasoning-parser kimi_k2 --tool-call-parser kimi_k2"
     }
   }
 }, {
@@ -319,6 +391,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "",
+      "sglang" : ""
     }
   }
 }, {
@@ -336,6 +412,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3  --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -353,6 +433,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -370,6 +454,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -387,6 +475,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -394,7 +486,7 @@
   "model_id" : "deepseek-ai/DeepSeek-V3.2-Exp",
   "model_name" : "DeepSeek-V3.2-Exp",
   "model_type" : "Other",
-   "task_type" : "text-generation",
+  "task_type" : "text-generation",
   "context" : 163840,
   "model_size" : 685396921376,
   "storage_size" : 689500030738,
@@ -404,6 +496,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser deepseek_v3 --tool-call-parser deepseek_v31",
+      "sglang" : "--reasoning-parser deepseek-v3 --tool-call-parser deepseekv31"
     }
   }
 }, {
@@ -421,6 +517,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser deepseek_v3 --tool-call-parser deepseek_v31",
+      "sglang" : "--reasoning-parser deepseek-v3 --tool-call-parser deepseekv31"
     }
   }
 }, {
@@ -438,6 +538,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser deepseek_v3 --tool-call-parser deepseek_v31",
+      "sglang" : "--reasoning-parser deepseek-v3 --tool-call-parser deepseekv31"
     }
   }
 }, {
@@ -455,6 +559,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -472,6 +580,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -489,6 +601,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -506,6 +622,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -523,6 +643,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -540,6 +664,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser qwen3 --enable-auto-tool-choice --tool-call-parser hermes",
+      "sglang" : "--reasoning-parser qwen3 --tool-call-parser qwen"
     }
   }
 }, {
@@ -557,6 +685,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser deepseek_r1",
+      "sglang" : "--reasoning-parser deepseek-r1"
     }
   }
 }, {
@@ -574,6 +706,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser deepseek_r1",
+      "sglang" : "--reasoning-parser deepseek-r1"
     }
   }
 }, {
@@ -591,6 +727,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser deepseek_r1",
+      "sglang" : "--reasoning-parser deepseek-r1"
     }
   }
 }, {
@@ -608,6 +748,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser deepseek_r1",
+      "sglang" : "--reasoning-parser deepseek-r1"
     }
   }
 }, {
@@ -625,6 +769,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser deepseek_r1",
+      "sglang" : "--reasoning-parser deepseek-r1"
     }
   }
 }, {
@@ -642,6 +790,10 @@
     "engines" : {
       "vllm" : "0.9.2",
       "sglang" : "0.4.3"
+    },
+    "extra_args" : {
+      "vllm" : "--enable-reasoning --reasoning-parser deepseek_r1",
+      "sglang" : "--reasoning-parser deepseek-r1"
     }
   }
 } ]
